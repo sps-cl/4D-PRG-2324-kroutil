@@ -3,6 +3,11 @@
 Uvod do prg
 
 Něco dalšího
-(git add .)
-    git commit -m "added info"
-        git push
+
+How to git:
+
+git add .
+    
+git commit -m "(added info)"
+
+git push
