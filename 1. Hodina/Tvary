@@ -1,0 +1,30 @@
+using System;
+
+//Rozhraní se implementuje
+interface IRendarable {
+void Render();
+
+}
+
+class Square : IRendarable{
+    private int x;
+}
+
+class Rectangle {
+    private int w;
+    private int h;
+
+    public void Render() {
+
+    }
+}
+
+
+class Program {
+    public static void Main (string[] args) {
+        Rectangle r1 = new Rectangle();
+        Square s1 = new Square
+
+
+    }
+}
