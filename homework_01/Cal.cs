@@ -1,43 +1,66 @@
-interface IOperation {
-    int calculate(int a, int b);
+// IOperation.cs
+public interface IOperation
+{
+    double Calculate(double a, double b);
 }
-class OpAdd implements IOperation {
-    @Override
-    public int calculate(int a, int b) {
+// OpAdd.cs
+public class OpAdd : IOperation
+{
+    public double Calculate(double a, double b)
+    {
         return a + b;
     }
 }
-class OpSub implements IOperation {
-    @Override
-    public int calculate(int a, int b) {
+// OpSub.cs
+public class OpSub : IOperation
+{
+    public double Calculate(double a, double b)
+    {
         return a - b;
     }
 }
-class OpMagic implements IOperation {
-    @Override
-    public int calculate(int a, int b) {
+// OpMagic.cs
+public class OpMagic : IOperation
+{
+    public double Calculate(double a, double b)
+    {
         return a * b;
     }
 }
-class CalculatorContext {
-    private IOperation operation;
-    public CalculatorContext(IOperation operation) {
-        this.operation = operation;
+// CalculatorContext.cs
+public class CalculatorContext
+{
+    private IOperation _operation;
+    public CalculatorContext(IOperation operation)
+    {
+        _operation = operation;
     }
-    public int executeOperation(int a, int b) {
-        return operation.calculate(a, b);
+    public double ExecuteOperation(double a, double b)
+    {
+        return _operation.Calculate(a, b);
     }
 }
-public class CalculatorApp {
-    public static void main(String[] args) {
-        CalculatorContext context = new CalculatorContext(new OpAdd());
-        int result = context.executeOperation(10, 5);
-        System.out.println(result); // Output: 15
-        context = new CalculatorContext(new OpSub());
-        result = context.executeOperation(10, 5);
-        System.out.println(result); // Output: 5
-        context = new CalculatorContext(new OpMagic());
-        result = context.executeOperation(10, 5);
-        System.out.println(result); // Output: 50
+// CalculatorApp.cs
+public class CalculatorApp
+{
+    public static void Main(string[] args)
+    {
+        // Create an instance of each operation
+        IOperation addOperation = new OpAdd();
+        IOperation subOperation = new OpSub();
+        IOperation magicOperation = new OpMagic();
+        // Create an instance of the calculator context
+        CalculatorContext calculatorContext = new CalculatorContext(addOperation);
+        // Execute the operation and print the result
+        double result = calculatorContext.ExecuteOperation(10, 5);
+        System.Console.WriteLine($"Výsledek souètu je: {result}");
+        // Change the operation and execute it again
+        calculatorContext = new CalculatorContext(subOperation);
+        result = calculatorContext.ExecuteOperation(10, 5);
+        System.Console.WriteLine($"Výsledek rozdílu je: {result}");
+        // Change the operation and execute it again
+        calculatorContext = new CalculatorContext(magicOperation);
+        result = calculatorContext.ExecuteOperation(10, 5);
+        System.Console.WriteLine($"Výsledek souèinu je: {result}");
     }
 }
