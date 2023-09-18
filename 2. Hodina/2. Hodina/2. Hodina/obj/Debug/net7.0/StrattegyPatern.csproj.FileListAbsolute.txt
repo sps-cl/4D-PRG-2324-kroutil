@@ -1,0 +1,4 @@
+R:\4.D\PRG\4D-PRG-2324-kroutil\2. Hodina\2. Hodina\2. Hodina\obj\Debug\net7.0\StrattegyPatern.GeneratedMSBuildEditorConfig.editorconfig
+R:\4.D\PRG\4D-PRG-2324-kroutil\2. Hodina\2. Hodina\2. Hodina\obj\Debug\net7.0\StrattegyPatern.AssemblyInfoInputs.cache
+R:\4.D\PRG\4D-PRG-2324-kroutil\2. Hodina\2. Hodina\2. Hodina\obj\Debug\net7.0\StrattegyPatern.AssemblyInfo.cs
+R:\4.D\PRG\4D-PRG-2324-kroutil\2. Hodina\2. Hodina\2. Hodina\obj\Debug\net7.0\StrattegyPatern.csproj.CoreCompileInputs.cache
