@@ -1,0 +1,7 @@
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\bin\Debug\HW1.exe.config
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\bin\Debug\HW1.exe
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\bin\Debug\HW1.pdb
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\obj\Debug\HW1.csproj.AssemblyReference.cache
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\obj\Debug\HW1.csproj.CoreCompileInputs.cache
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\obj\Debug\HW1.exe
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_01\HW1\obj\Debug\HW1.pdb
