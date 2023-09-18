@@ -8,5 +8,9 @@ namespace _2._Hodina.operations
 {
     internal class OperationSub
     {
+        public int execute(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
