@@ -27,11 +27,25 @@ namespace EventManager
             Event targetEvent = Events.Find(e => e.EventName == eventName);
             if (targetEvent != null)
             {
-                targetEvent.Participants.Add(person);
+                targetEvent.Attendees.Add(person);
             }
             else
             {
                 Console.WriteLine($"No event found with the name {eventName}");
+            }
+        }
+
+        public void ListEvents()
+        {
+            foreach (Event e in Events)
+            {
+                Console.WriteLine($"Event: {e.EventName}, Date: {e.EventDate}");
+                Console.WriteLine("Attendees:");
+                foreach (Person p in e.Attendees)
+                {
+                    Console.WriteLine($"{p.Name}");
+                }
+                Console.WriteLine();
             }
         }
     }

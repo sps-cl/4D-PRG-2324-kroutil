@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EventManager.exceptions
 {
-    internal class NotAvailableException
+    internal class NotAvailableException : Exception
     {
+        public NotAvailableException(string message = "Event není dostupný!") : base(message) { }
     }
 }

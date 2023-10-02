@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EventManager.exceptions
 {
-    internal class NotFoundException
+    internal class NotFoundException : Exception
     {
+        public NotFoundException(string message = "Člověk nebyl nalezena") : base(message) { }
     }
 }

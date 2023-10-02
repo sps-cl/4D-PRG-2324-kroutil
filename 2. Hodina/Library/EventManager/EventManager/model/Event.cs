@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace EventManager.model
 {
-    internal class Event
+    public class Event
     {
+        public string EventName { get; set; }
+        public DateTime EventDate { get; set; }
+        public List<Person> Attendees { get; set; }
+
+        public Event(string eventName, DateTime eventDate)
+        {
+            EventName = eventName;
+            EventDate = eventDate;
+            Attendees = new List<Person>();
+        }
     }
 }
