@@ -1,0 +1,14 @@
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\bin\Debug\net7.0\EventManager.exe
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\bin\Debug\net7.0\EventManager.deps.json
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\bin\Debug\net7.0\EventManager.runtimeconfig.json
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\bin\Debug\net7.0\EventManager.dll
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\bin\Debug\net7.0\EventManager.pdb
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.AssemblyInfoInputs.cache
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.AssemblyInfo.cs
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.csproj.CoreCompileInputs.cache
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.dll
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\refint\EventManager.dll
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.pdb
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\EventManager.genruntimeconfig.cache
+D:\Venda\Škola\4.D\Prg\4D-PRG-2324-kroutil\homework_02\EventManager\obj\Debug\net7.0\ref\EventManager.dll
