@@ -1,0 +1,25 @@
+.yellowBackground {
+    font-size: 2em;
+    background-color: yellow;
+}
+
+div {
+    margin: 20px 30px 40px 50px;
+    padding: 20px 30px 40px 50px;
+    border: 4px dashed red;
+    border-bottom: 7px dotted green;
+    text-align: right;
+    display: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#p1 {
+    background-color: brown;
+}
+
+.yellowBackground:hover {
+    background-color: green;
+}
